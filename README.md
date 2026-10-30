@@ -1,5 +1,4 @@
-E-Commerce Checkout A/B Testing Analysis
-📌 Project Overview
+E-Commerce Checkout A/B Testing Analysis Project Overview
 
 This project analyzes the impact of a redesigned e-commerce checkout page using A/B testing. The analysis compares two groups:
 
@@ -19,7 +18,7 @@ SciPy – Statistical analysis
 Matplotlib – Data visualization
 Power BI – Interactive dashboard
 DAX – KPI and statistical calculations
-📊 Dataset
+ Dataset
 
 The dataset contains 50,000 e-commerce users and includes:
 
@@ -37,7 +36,7 @@ Checkout Started
 Purchased
 Order Value
 Revenue per User
-🔄 Project Workflow
+Project Workflow
 Raw Dataset
      ↓
 Data Cleaning
@@ -55,7 +54,7 @@ Segment Analysis
 Power BI Dashboard
      ↓
 Business Recommendation
-🧪 A/B Testing
+ A/B Testing
 Hypotheses
 
 Null Hypothesis (H₀):
@@ -74,7 +73,7 @@ Relative Uplift
 Z-score
 P-value
 95% Confidence Interval
-📈 Key Results
+Key Results
 Metric	Control	Treatment
 Users	24,814	25,186
 Conversion Rate	7.79%	8.03%
@@ -98,7 +97,7 @@ The 95% confidence interval for the conversion difference is approximately:
 
 This means there is insufficient statistical evidence to conclude that the redesigned checkout significantly improved conversion.
 
-🔍 Segment Analysis
+Segment Analysis
 
 The experiment was analyzed across different customer segments:
 
@@ -121,7 +120,8 @@ Direct
 
 These analyses help identify segments where the Treatment experience may perform differently.
 
-📊 Power BI Dashboard
+Power BI Dashboard
+<img width="1289" height="812" alt="image" src="https://github.com/user-attachments/assets/04d2b6d3-8d73-48f0-860e-b510750a70aa" />
 
 The Power BI dashboard includes:
 
@@ -151,15 +151,14 @@ P-value
 95% Confidence Interval
 Statistical Decision
 Business Recommendation
-💡 Business Recommendation
+Business Recommendation
 
 The redesigned checkout showed a positive descriptive improvement in conversion and revenue per user. However, the conversion improvement was not statistically significant.
 
 Therefore, the redesigned checkout should not yet be considered a proven improvement.
 
 A longer experiment or larger sample size is recommended before making a final rollout decision. AOV should also be monitored because it decreased slightly while conversion increased.
-
-🚀 Skills Demonstrated
+Skills Demonstrated
 Data Cleaning
 Excel
 SQL
